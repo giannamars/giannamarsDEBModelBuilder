@@ -6,7 +6,9 @@ MAINTAINER KBase Developer
 # install line here, a git checkout to download code, or run any other
 # installation scripts.
 
-# RUN apt-get update
+RUN \
+ apt-get update && \
+ apt-get install wget
 
 
 # -----------------------------------------
