@@ -17,7 +17,7 @@ RUN \
 
  WORKDIR /kb/module/DEBmicroTraitKBase 
 
- RUN /kb/module/julia-1.6.7/bin/julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate();'
+ RUN ../julia-1.6.7/bin/julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate();'
   
 
 
