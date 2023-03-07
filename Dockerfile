@@ -15,7 +15,12 @@ RUN \
  cp -R julia-1.6.7 /kb/deployment/bin/. && \
  git clone https://github.com/giannamars/DEBmicroTraitKBase.git
 
- WORKDIR /kb/module/DEBmicroTraitKBase
+ WORKDIR /kb/module/DEBmicroTraitKBase 
+
+ RUN \
+ cd DEBmicroTraitKBase &&\
+ /kb/deployment/bin/julia-1.6.7/bin/julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate();'
+  
 
 
  
