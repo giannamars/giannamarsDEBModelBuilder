@@ -14,7 +14,6 @@ RUN \
  rm -rf julia-1.6.7-linux-x86_64.tar.gz && \
  cp -R julia-1.6.7 /kb/deployment/bin/.
 
- RUN /kb/deployment/bin/julia-1.6.7/bin/julia -v
 
 
 
