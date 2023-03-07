@@ -15,7 +15,6 @@ RUN \
  rm -r julia-1.6.7 && \
  rm - r julia-1.6.7-linux-x86_64.tar.gz 
 
- RUN julia -v 
  
 
 
