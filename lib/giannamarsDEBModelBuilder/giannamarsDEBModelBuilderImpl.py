@@ -23,7 +23,7 @@ class giannamarsDEBModelBuilder:
     # the latter method is running.
     ######################################### noqa
     VERSION = "0.0.1"
-    GIT_URL = ""
+    GIT_URL = "https://github.com/giannamars/giannamarsDEBModelBuilder"
     GIT_COMMIT_HASH = ""
 
     #BEGIN_CLASS_HEADER
